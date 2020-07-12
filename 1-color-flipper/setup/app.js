@@ -14,5 +14,6 @@ btn.addEventListener('click', function() {
 });
 
 function getRandomNumber() {
-    return Math.random() * colors.length;
+    // Use Math.floor to round down to nearest integer
+    return Math.floor(Math.random() * colors.length);
 }
